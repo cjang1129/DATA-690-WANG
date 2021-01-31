@@ -4,14 +4,14 @@
 ### Tab Completion - pressing the Tab key will search the namespace for any variables (objects, functions, etc.)
 ### Introspection - using a question mark (?) before or after a variable will display some general information about the object
 ### %run Command - you can run any file as a python program inside the environment using the %run command
-###    ex) def f(x, y, z):
-###            return (x + y) / z
-###        a = 5
-###        b = 6
-###        c = 7.5
-###        result = f(a, b, c)
+> ex) def f(x, y, z):
+>        return (x + y) / z
+>    a = 5
+>    b = 6
+>    c = 7.5
+>    result = f(a, b, c)
 
-###        %run ipython_script_test.py
+>    %run ipython_script_test.py
 
 ### %paste - takes whatever text is in the clipboard and executes it as a single block in the shell
 ### %cpaste - you have the freedom to paste as much code as you like before executing it
